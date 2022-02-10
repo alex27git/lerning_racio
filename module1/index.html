@@ -21,11 +21,17 @@
 <body>
   <div class="container">
     <header>
+<!--  именование не по БЭМ
+ class="header container" container это общий стиль
+ -->
       <div class="header_container">
+        <!--  именование не по БЭМ class="header__logo" через __ а не _ -->
         <div class="header_logo">
           <img src="img/Logo.png" alt="logo" class="header_logo">
         </div>
+        <!--  именование не по БЭМ class="header__nav" -->
         <nav class="header_nav">
+<!--   нет классов для списка       -->
           <ul>
             <li><a href="#">About</a></li>
             <li><a href="#help">Help</a></li>
@@ -35,6 +41,7 @@
       </div>
       <div class="wrapper">
         <div class="header_title">
+<!--    применение <br> плохая практика, перенос стилями использую max-width      -->
           <h1>Save your data <br> storage here.</h1>
           <p class="header_title-description">Data Warehouse is a data storage area that has been
             tested for security, so you can store your data here
@@ -110,6 +117,11 @@
           <img src="img/Ellipse76.svg" alt="" class="slider_img">
           <div class="slider_info">
             <div class="slider_name">John Fang </div>
+<!--
+почта и телефон оформляются так
+<a href="mailto:mail@mail.ru">Напишите нам</a>
+<a href="tel:+79001111111">+7-900-111-11-11</a>
+-->
             <a href="#" class="slider_link">wordfaang.com</a>
             <p class="slider_descr">Suspendisse ultrices at diam lectus nullam.
               Nisl, sagittis viverra enim erat tortor ultricies massa turpis. Arcu pulvinar aenean nam laoreet nulla.
@@ -142,7 +154,7 @@
       </div>
     </section>
   </div>
-  
+
   <footer id="help" class="footer">
     <div class="footer_wrap">
       <div class="footer_wrap-iner">
