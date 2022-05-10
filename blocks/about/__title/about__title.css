@@ -1,0 +1,22 @@
+.about__title{
+  font-family: Helvatica, sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  color: #212353;
+  max-width: 50%;
+  margin-bottom: 40px;
+  line-height: 130%;
+}
+
+@media screen and (max-width: 1024px) {
+  .about__title{
+    font-size: 30px;
+    margin-bottom: 25px;
+  }
+}
+
+@media screen and (max-width: 625px) {
+  .about__title{
+    max-width: 100%;
+  }
+}

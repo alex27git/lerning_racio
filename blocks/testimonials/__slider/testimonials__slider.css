@@ -1,0 +1,12 @@
+.testimonials__slider{
+  display: flex;
+  justify-content: space-between;
+  width: 1250px;
+}
+
+@media screen and (max-width: 1024px) {
+  .testimonials__slider{
+    width: 900px;
+  }
+}
+

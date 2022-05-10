@@ -1,0 +1,123 @@
+.features__item {
+  justify-self: flex-end;
+  padding: 50px 50px 35px 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 50px;
+  position: relative;
+}
+.features__item:before{
+  position: absolute;
+  left: -100px;
+  top: 70px;
+}
+
+.item__title {
+  font-family: Helvatica, sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #212353;
+  margin-bottom: 20px;
+  line-height: 130%;
+}
+
+.item__descr {
+  font-family: Avenir, sans-serif;
+  font-weight: 400;
+  color: #4B5D68;
+  font-size: 16px;
+  line-height: 160%;
+  max-width: 220px;
+  margin-bottom: 20px;
+}
+
+.item__link {
+  font-family: Avenir, sans-serif;
+  font-weight: 800;
+  font-size: 16px;
+  color: #212353;
+  display: flex;
+  align-items: center;
+  transition: all .5s ease-in-out;
+}
+
+.item__link img {
+  margin-left: 15px;
+}
+
+.item__link:hover{
+  opacity: .5;
+}
+
+.search {
+  background: url("../../../images/Features/search_bg.png") no-repeat right;
+  background-size: cover;
+}
+
+.search:before {
+  content: url("../../../images/Features/search_img.png");
+}
+
+.access {
+  background: url("../../../images/Features/access_bg.png") no-repeat right;
+  background-size: cover;
+}
+
+.access:before {
+  content: url("../../../images/Features/access_img.png");
+}
+
+.print {
+  background: url("../../../images/Features/print_bg.png") no-repeat right;
+  background-size: cover;
+}
+
+.print:before {
+  content: url("../../../images/Features/print_img.png");
+}
+
+.security {
+  background: url("../../../images/Features/security_bg.png") no-repeat right;
+  background-size: cover;
+}
+
+.security:before {
+  content: url("../../../images/Features/security_img.png");
+}
+
+@media screen and (max-width: 1024px){
+  .features__item{
+    padding: 40px 40px 25px 130px;
+  }
+}
+
+@media screen and (max-width: 900px){
+  .features__item{
+    justify-self: center;
+  }
+}
+
+@media screen and (max-width: 625px){
+  .features__item{
+    padding: 30px 20px 20px 100px;
+  }
+  .item__title{
+    font-size: 18px;
+  }
+  .item__descr{
+    font-size: 14px;
+  }
+  .search:before, .access:before, .security:before,.print:before{
+    content: none;
+  }
+}
+
+@media screen and (max-width: 425px){
+  .features__item{
+    padding: 30px;
+  }
+  .item__descr{
+    margin-bottom: 0;
+  }
+}

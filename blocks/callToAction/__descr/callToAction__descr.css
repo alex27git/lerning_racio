@@ -1,0 +1,15 @@
+.callToAction__descr{
+  font-family: Avenir,sans-serif;
+  font-weight: 500;
+  color: #4B5D68;
+  max-width: 380px;
+  font-size: 18px;
+  line-height: 160%;
+  margin-bottom: 50px;
+}
+
+@media screen and (max-width: 1024px) {
+  .callToAction__descr{
+    font-size: 16px;
+  }
+}

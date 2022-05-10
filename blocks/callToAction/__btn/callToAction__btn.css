@@ -1,0 +1,30 @@
+.callToAction__btn{
+  width: 170px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #9C69E2;
+  border-radius: 50px;
+  border: none;
+  color: #FFFFFF;
+  font-family: Avenir,sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 160%;
+  transition: all .5s ease-in-out;
+  box-shadow: 0 0 2px #9C69E2, 0 0 5px #9C69E2, 0 0 5px #9C69E2;
+}
+
+.callToAction__btn:hover {
+  background: #9C69E2;
+  box-shadow: 0 0 10px #9C69E2, 0 0 40px #9C69E2, 0 0 40px #9C69E2;
+}
+
+@media screen and (max-width: 768px) {
+  .callToAction__btn{
+    width: 120px;
+    height: 40px;
+    font-size: 16px;
+  }
+}

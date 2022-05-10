@@ -1,0 +1,14 @@
+.navbar__item{
+  font-family: Avenir,sans-serif;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all .5s ease;
+  color: #000000;
+  font-size: 16px;
+}
+.navbar__item:visited,.navbar__item:active{
+  color: #000000;
+}
+.navbar__item:hover{
+  text-shadow: 0 0 1px #000, 0 0 1px #000;
+}

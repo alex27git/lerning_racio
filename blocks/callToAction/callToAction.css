@@ -1,0 +1,30 @@
+.callToAction{
+  background: url("../../images/callToAction_img.png") no-repeat bottom right;
+  margin-top: 140px;
+  min-height: 565px;
+  margin-bottom: 100px;
+  background-size: 75%;
+}
+
+@media screen and (max-width: 1024px) {
+  .callToAction{
+    min-height: 525px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .callToAction{
+    min-height: 425px;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .callToAction{
+    min-height: 325px;
+  }
+}
+
+
+

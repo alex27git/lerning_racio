@@ -1,0 +1,22 @@
+.testimonials{
+  max-width: 1120px;
+  background: #9C69E2;
+  border-radius: 50px;
+  padding: 110px 80px 60px 85px;
+  margin: 0 auto 150px;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 1024px) {
+  .testimonials{
+    padding: 70px 50px 40px 45px;
+    margin-bottom: 70px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .testimonials{
+    padding: 50px 40px 30px 25px;
+    margin-bottom: 70px;
+  }
+}

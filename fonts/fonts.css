@@ -1,0 +1,40 @@
+@font-face {
+  font-family: 'Avenir';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('./Avenir-Medium.woff2') format('woff2'), url('./Avenir-Medium.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Avenir';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url('./Avenir-Heavy.woff2') format('woff2'), url('./Avenir-Heavy.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Avenir';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('./Avenir-Book.woff2') format('woff2'), url('./Avenir-Book.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('./Helvetica.woff2') format('woff2'), url('./Helvetica.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('./Helvetica-Bold.woff2') format('woff2'), url('./Helvetica-Bold.woff') format('woff');
+}
+

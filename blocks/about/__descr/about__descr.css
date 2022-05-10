@@ -1,0 +1,21 @@
+.about__descr{
+  font-family: Avenir,sans-serif;
+  font-weight: 500;
+  color: #4B5D68;
+  max-width: 50%;
+  font-size: 18px;
+  line-height: 160%;
+}
+
+@media screen and (max-width: 1024px) {
+  .about__descr{
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 625px) {
+  .about__descr{
+    max-width: 100%;
+    text-align: justify;
+  }
+}

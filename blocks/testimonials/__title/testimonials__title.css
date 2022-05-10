@@ -1,0 +1,15 @@
+.testimonials__title{
+  color: #FFFFFF;
+  font-family: Helvatica, sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  margin-bottom: 88px;
+  line-height: 130%;
+}
+
+@media screen and (max-width: 1024px) {
+  .testimonials__title{
+    font-size: 30px;
+    margin-bottom: 40px;
+  }
+}
